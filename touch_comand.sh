@@ -6,7 +6,7 @@ read FILE_NAME
 REGEX="^[A-Za-z]*$" 
 
 if [[ $FILE_NAME =~ $REGEX ]];then
-    #touch "${FILE_NAME}.txt"
+    touch "${FILE_NAME}.txt"
     echo "Your file has been created!"
 else 
 
