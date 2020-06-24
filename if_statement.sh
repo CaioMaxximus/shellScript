@@ -7,7 +7,7 @@ REGEX="^[o]pa$"
 
 if [[ $INPUT =~ $REGEX ]]; then
 
-    echo "match"
+    echo "your input:${INPUT} match"
 else
     echo "not match"
 fi
